@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-992285784950457510
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Head_Selene
+  m_Shader: {fileID: 4800000, guid: 1a9e50172a140c74f81f3639a26db758, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _RECEIVESHADOWS_OFF
+  - _RECEIVE_SHADOWS_OFF
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3003
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _FresnelAlphaScale _Voxelization
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 348060bbdbd749e4bbe1dc0294df5769, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emisive:
+        m_Texture: {fileID: 2800000, guid: b6dfdd6f1c3b8c9418ef951a123b3d15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive:
+        m_Texture: {fileID: 2800000, guid: 9dd2da9631d2b944d8a030d5ae8bae96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Line2:
+        m_Texture: {fileID: 2800000, guid: a6ddbfbf28b5acb44921ca832c5c7f18, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Line3:
+        m_Texture: {fileID: 2800000, guid: d7d0421360000d64eb0bc854e928e65f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Line4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LineGlitch:
+        m_Texture: {fileID: 2800000, guid: 88eb97e78f86c604bb00864c0dbeffc1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MAS:
+        m_Texture: {fileID: 2800000, guid: 38bf2aa51f86fee46abc699e8db8069a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MAS1:
+        m_Texture: {fileID: 2800000, guid: 9dd2da9631d2b944d8a030d5ae8bae96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a033480f6850ccd408c6e49caa70a4d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: 853e1feba7a3ef040a242825d9a71302, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 2c83853d21e33e445b6bc0d57fd1d94f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddPrecomputedVelocity: 0
+    - _Alpha: 1
+    - _Alpha1: 0.5
+    - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
+    - _AlphaHeight: -0.5
+    - _AlphaIntensity: 0.5
+    - _AlphaMaskFeature: 1
+    - _AlphaToMask: 0
+    - _AoIntensity: 1
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 0
+    - _BumpScale: 1
+    - _CastShadows: 0
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _ColorGlitchAffect: 0.1
+    - _ColorGlitchFeature: 0
+    - _Cull: 2
+    - _Cutoff: 0.957
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DissolveHide: -1
+    - _DstBlend: 0
+    - _DstBlendAlpha: 10
+    - _EnvironmentReflections: 1
+    - _Float0: -0.69
+    - _Float4: 0
+    - _FresnelAlphaPower: -4.19
+    - _FresnelAlphaScale: 2
+    - _FresnelPower: 0.53
+    - _FresnelScale: -1.92
+    - _GlichSpeed: 0.1
+    - _GlitchColorAffect: 0.05
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _GrainAffect: 0.03
+    - _GrainFeature: 1
+    - _GrainScale: 1000
+    - _Int0: 2
+    - _Line1Alpha1: -0.2
+    - _Line1Feature1: 0
+    - _Line1Frequency1: 20
+    - _Line1Hardness1: 0.1
+    - _Line1InvertedThickness1: 0
+    - _Line1Speed1: 2
+    - _Line2Alpha: 100
+    - _Line2Feature: 0
+    - _Line2Frequency: 0.01
+    - _Line2GlitchHardness: 0
+    - _Line2Hardness: 2
+    - _Line2InvertedThickness: 0.255
+    - _Line2Speed: 0.1
+    - _Line2Speed1: -1
+    - _Line2Speed2: -1
+    - _Line2Speed3: -1
+    - _LineAlpha2: 0.15
+    - _LineBothFeature: 0
+    - _LineFrequency2: 100
+    - _LineGlitchFeature: 1
+    - _LineGlitchFrequency: 0.2
+    - _LineGlitchHardness: 1
+    - _LineGlitchInvertedThickness: 0.825
+    - _LineGlitchSpeed: -0.1
+    - _LineHardness2: 1.45
+    - _LineInvertedThickness2: 0
+    - _LineSpeed2: -3.57
+    - _Metallic: 0
+    - _MetallicIntensity: 1
+    - _NormalAffect: 1
+    - _NormalIntensity: 1
+    - _NormalScale: 2
+    - _OcclusionStrength: 1
+    - _Parallax: 0.005
+    - _PositionDirection: 1
+    - _PositionFeature: 1
+    - _PositionSpaceFeature: 0
+    - _QueueControl: 0
+    - _QueueOffset: 3
+    - _RandomGlitchAmount: 0
+    - _RandomGlitchConstant: 0.133
+    - _RandomGlitchFeature: 1
+    - _RandomGlitchTiling: 0
+    - _RandomOffset: 0
+    - _ReceiveShadows: 0
+    - _Smoothness: 0
+    - _SmoothnessTextureChannel: 0
+    - _SmothnessIntensity: 1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
+    - _Surface: 0
+    - _Voxelization: 10
+    - _VoxelizationAffect: 0
+    - _VoxelizationFeature: 0
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _ColorEmissive: {r: 1, g: 0.18481514, b: 0, a: 0}
+    - _Coloremissive: {r: 3.7785237, g: 0.40993425, b: 2.3450816, a: 1}
+    - _DissolveScale: {r: 0.1, g: 1.01, b: 5, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FresnelColor: {r: 0, g: 0.8207547, b: 0.24164347, a: 1}
+    - _GlichSpeed: {r: 0.1, g: -0.1, b: 0.01, a: 0.1}
+    - _GlitchLine2Offset: {r: 0.1, g: 0, b: 0, a: 0}
+    - _Line2GlitchOffset: {r: 0.01, g: 0, b: 0, a: 0}
+    - _LineGlitchOffset: {r: 0.03, g: 0, b: 0, a: 0}
+    - _MainColor: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
+    - _RandomGlitchOffset: {r: -0.1, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Vector0: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

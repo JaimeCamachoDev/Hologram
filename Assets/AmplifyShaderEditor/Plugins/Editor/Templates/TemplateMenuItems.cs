@@ -61,6 +61,11 @@ namespace AmplifyShaderEditor
 		{
 			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "32120270d1b3a8746af2aca8bc749736" );
 		}
+		[MenuItem( "Assets/Create/Amplify Shader/Templates/Knife/Unlit Depth Mask", false, 85 )]
+		public static void ApplyTemplateTemplatesKnifeUnlitDepthMask()
+		{
+			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "a91b3c5c9591c734aa5ea3b3037f67fa" );
+		}
 		[MenuItem( "Assets/Create/Amplify Shader/UI/Default", false, 85 )]
 		public static void ApplyTemplateUIDefault()
 		{

@@ -5,7 +5,7 @@ AssetOrigin:
   productId: 170106
   packageName: Sci Fi Hologram Shader
   packageVersion: 1.2
-  assetPath: Assets/Knife/Customizable Hologramm Shader/Shaders/Soft Holo Cone.shader
+  assetPath: Assets/2-Art/2-VFX/Hologram/SHADER/Soft Holo Cone.shader
   uploadId: 718244
 ShaderImporter:
   externalObjects: {}

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e99f8b80b1693284587af0c131f61f3d
+guid: 5eed2a9bcc733ac479d777f812f92111
 ShaderImporter:
   externalObjects: {}
   defaultTextures:
@@ -10,10 +10,3 @@ ShaderImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 170106
-  packageName: Sci Fi Hologram Shader
-  packageVersion: 1.2
-  assetPath: Assets/Knife/Customizable Hologramm Shader/Shaders/Hologram Shader.shader
-  uploadId: 718244

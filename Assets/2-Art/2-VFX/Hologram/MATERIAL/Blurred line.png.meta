@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: c6504c94fed70cf49a38669fda63c389
+guid: d7d0421360000d64eb0bc854e928e65f
 AssetOrigin:
   serializedVersion: 1
   productId: 170106
   packageName: Sci Fi Hologram Shader
   packageVersion: 1.2
-  assetPath: Assets/Knife/Customizable Hologramm Shader/Textures/GradTopBottom_a_3-4.png
+  assetPath: Assets/Knife/Customizable Hologramm Shader/Textures/Blurred line.png
   uploadId: 718244
 TextureImporter:
   internalIDToNameTable: []

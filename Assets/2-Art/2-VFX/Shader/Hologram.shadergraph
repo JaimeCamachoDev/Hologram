@@ -2259,8 +2259,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 561.9998168945313,
-            "y": 1950.0001220703125
+            "x": 564.0000610351563,
+            "y": 1950.0
         },
         "m_Blocks": [
             {
@@ -5667,7 +5667,7 @@
     "m_ObjectId": "3bf4121dee55451dbb29a827f38cd5a4",
     "m_Title": "Glitch Line 2",
     "m_Position": {
-        "x": -4636.99951171875,
+        "x": -4637.0,
         "y": -1029.0
     }
 }
@@ -6106,8 +6106,8 @@
     "m_ObjectId": "402795c97c714c3b908ebaf4c3a3be2f",
     "m_Title": "Random Glitch",
     "m_Position": {
-        "x": -4845.99951171875,
-        "y": 211.99998474121095
+        "x": -4846.0,
+        "y": 212.0
     }
 }
 
@@ -7151,8 +7151,8 @@
     "m_ObjectId": "505dd44b4b7e4369b0ca63e38fc3b5e1",
     "m_Title": "Line 2 Main",
     "m_Position": {
-        "x": -5193.99951171875,
-        "y": -529.9998779296875
+        "x": -5194.0,
+        "y": -530.0
     }
 }
 
@@ -7162,7 +7162,7 @@
     "m_ObjectId": "50a53eeee66541bc9843c2a6d4215fe2",
     "m_Title": "Random Glitch",
     "m_Position": {
-        "x": -6457.99951171875,
+        "x": -6458.0,
         "y": 667.0
     }
 }
@@ -8697,7 +8697,7 @@
     "m_ObjectId": "695974d6e3884a27a30a3fb4353cb1d9",
     "m_Title": "Main Glitch",
     "m_Position": {
-        "x": -6737.99951171875,
+        "x": -6738.0,
         "y": -606.0
     }
 }
@@ -8881,7 +8881,7 @@
     "m_Title": "Hologram",
     "m_Position": {
         "x": -3062.0,
-        "y": 1629.999755859375
+        "y": 1630.0
     }
 }
 
@@ -9462,7 +9462,7 @@
     "m_ObjectId": "7394acae325841b4823a979eefded064",
     "m_Title": "Glitch Movement",
     "m_Position": {
-        "x": -5658.99951171875,
+        "x": -5659.0,
         "y": -1155.0
     }
 }
@@ -15119,7 +15119,7 @@
     "m_ObjectId": "daa875d9cf0146dcb5543580629b04d7",
     "m_Title": "Small Glitch Lines",
     "m_Position": {
-        "x": -5821.99951171875,
+        "x": -5822.0,
         "y": 1162.0
     }
 }

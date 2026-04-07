@@ -1,6 +1,7 @@
 # Hologram
 
-![Banner](https://github.com/user-attachments/assets/5b933a56-0ece-452a-99c0-1a641485a6b9)
+![Holograma001](https://github.com/user-attachments/assets/905c3f83-a2bd-460e-b121-1d46c5feaa11)
+
 
 Proyecto de ejemplo en **Unity 6 + URP** para crear un efecto de **holograma** con Shader Graph, material dedicado y escena de demostración.
 

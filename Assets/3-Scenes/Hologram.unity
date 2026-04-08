@@ -250,7 +250,7 @@ Transform:
   m_GameObject: {fileID: 36547638}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0.37, y: 1.76, z: -13.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -270,7 +270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3301538876736061619, guid: e9364c07090d0544cbb6a77f004a5c94, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 5.03
       objectReference: {fileID: 0}
     - target: {fileID: 3301538876736061619, guid: e9364c07090d0544cbb6a77f004a5c94, type: 3}
       propertyPath: m_LocalPosition.y
@@ -278,7 +278,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3301538876736061619, guid: e9364c07090d0544cbb6a77f004a5c94, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -7.16
       objectReference: {fileID: 0}
     - target: {fileID: 3301538876736061619, guid: e9364c07090d0544cbb6a77f004a5c94, type: 3}
       propertyPath: m_LocalRotation.w
@@ -420,8 +420,8 @@ Transform:
   m_GameObject: {fileID: 1135762885}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.4478, y: 0.01, z: -2.6404}
-  m_LocalScale: {x: 1.2642261, y: 1, z: 1.3979}
+  m_LocalPosition: {x: 3.8197, y: 0.01, z: -2.6404}
+  m_LocalScale: {x: 1.9385643, y: 1, z: 1.3979}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -436,7 +436,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 038098861cc6e5a4daeb164f1ba2b188, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.689
+      value: 2.785
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 038098861cc6e5a4daeb164f1ba2b188, type: 3}
       propertyPath: m_LocalPosition.y
@@ -597,8 +597,8 @@ Transform:
   m_GameObject: {fileID: 1244658255}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.34, y: 1.54, z: 4.76}
-  m_LocalScale: {x: 12.231786, y: 10.72231, z: 1.9634}
+  m_LocalPosition: {x: 3.8267, y: 1.54, z: 4.76}
+  m_LocalScale: {x: 19.36236, y: 10.72231, z: 1.9634}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -655,6 +655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: X Bot (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 038098861cc6e5a4daeb164f1ba2b188, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3853268898807207900, guid: 038098861cc6e5a4daeb164f1ba2b188, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -662,7 +666,7 @@ PrefabInstance:
     - target: {fileID: 6148737315974723067, guid: 038098861cc6e5a4daeb164f1ba2b188, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ba92d3b22dcd98f49b91655f91e292d7, type: 2}
+      objectReference: {fileID: 2100000, guid: 0a2d1060aa0ea054c94bd1b6b5e49682, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -887,7 +891,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 038098861cc6e5a4daeb164f1ba2b188, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.07
+      value: 0.633
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 038098861cc6e5a4daeb164f1ba2b188, type: 3}
       propertyPath: m_LocalPosition.y
@@ -925,10 +929,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2656431786303760210, guid: 038098861cc6e5a4daeb164f1ba2b188, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 038098861cc6e5a4daeb164f1ba2b188, type: 3}
       propertyPath: m_Name
       value: X Bot
       objectReference: {fileID: 0}
+    - target: {fileID: 6148737315974723067, guid: 038098861cc6e5a4daeb164f1ba2b188, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7445fbc045b74814ebec9c99d60d711d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

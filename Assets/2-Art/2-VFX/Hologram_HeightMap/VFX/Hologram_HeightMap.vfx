@@ -412,10 +412,10 @@ MonoBehaviour:
   - title: '2D Noise (Animated via third component : time)'
     position:
       serializedVersion: 2
-      x: -3373
-      y: 931
-      width: 1100
-      height: 352
+      x: -3401
+      y: 929
+      width: 1144
+      height: 348
     contents:
     - model: {fileID: 8926484042661615498}
       id: 0
@@ -532,8 +532,9 @@ MonoBehaviour:
 
 
       Then, blended to positions'
-    theme: Classic
+    theme: 
     textSize: Medium
+    colorTheme: 1
   - title: Connect Rays to the Source
     position:
       serializedVersion: 2
@@ -548,8 +549,9 @@ MonoBehaviour:
       Pivot
       is set up to be located at the pin''s tip so the next block will be able to
       scale it'
-    theme: Classic
+    theme: 
     textSize: Small
+    colorTheme: 1
   - title: Setting the Rays Size (max)
     position:
       serializedVersion: 2
@@ -559,8 +561,9 @@ MonoBehaviour:
       height: 100
     contents: First, we set-up the Size/Scale for the rays. We only Store Scale.x
       as Scale.y will be set by the Connect Target Block
-    theme: Classic
+    theme: 
     textSize: Small
+    colorTheme: 1
   - title: Scale Rays by Pin Height + Cull
     position:
       serializedVersion: 2
@@ -577,8 +580,9 @@ MonoBehaviour:
 
       Also,
       culling applies to keep only one particle out of 16'
-    theme: Classic
+    theme: 
     textSize: Small
+    colorTheme: 1
   - title: Setup Color / Alpha
     position:
       serializedVersion: 2
@@ -592,8 +596,9 @@ MonoBehaviour:
 
       Alpha is Set up to be fixed
       but with Camera Fading so Rays closer to the camera gets faded and culled.'
-    theme: Classic
+    theme: 
     textSize: Small
+    colorTheme: 1
   - title: Spawn from Point Cache
     position:
       serializedVersion: 2
@@ -616,8 +621,9 @@ MonoBehaviour:
 
       2D Position is then backed up in BasePosition Custom Attribute,
       as we assume that the base height is zero'
-    theme: Classic
+    theme: 
     textSize: Medium
+    colorTheme: 1
   - title: Wave Shape from Curve
     position:
       serializedVersion: 2
@@ -630,8 +636,9 @@ MonoBehaviour:
 
       Animation
       range is set in the periodic total time operator'
-    theme: Classic
+    theme: 
     textSize: Small
+    colorTheme: 1
   - title: XZ Distance to Center
     position:
       serializedVersion: 2
@@ -640,8 +647,9 @@ MonoBehaviour:
       width: 453
       height: 173
     contents: 
-    theme: Black
+    theme: 
     textSize: Small
+    colorTheme: 2
   - title: Wave Scale
     position:
       serializedVersion: 2
@@ -650,8 +658,9 @@ MonoBehaviour:
       width: 179
       height: 154
     contents: 
-    theme: Black
+    theme: 
     textSize: Small
+    colorTheme: 2
   - title: Noise Scale
     position:
       serializedVersion: 2
@@ -660,8 +669,9 @@ MonoBehaviour:
       width: 194
       height: 143
     contents: Multiplied By Wave Height
-    theme: Black
+    theme: 
     textSize: Small
+    colorTheme: 2
   - title: Minimum Noise
     position:
       serializedVersion: 2
@@ -670,17 +680,18 @@ MonoBehaviour:
       width: 194
       height: 170
     contents: 
-    theme: Black
+    theme: 
     textSize: Small
+    colorTheme: 2
   categories:
   - name: Landing Target
-    collapsed: 0
+    collapsed: 1
   uiBounds:
     serializedVersion: 2
-    x: -3373
+    x: -3401
     y: -794
-    width: 8068
-    height: 4454
+    width: 8096
+    height: 4452
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -975,22 +986,6 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: EnableLandingTarget
-    path: EnableLandingTarget
-    tooltip: 
-    space: -1
-    spaceable: 0
-    sheetType: m_Bool
-    realType: Boolean
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: True
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
   - name: LandingTargetPosition
     path: LandingTargetPosition
     tooltip: 
@@ -1003,6 +998,22 @@ MonoBehaviour:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       m_SerializableObject: '{"x":0.0,"y":0.0,"z":0.0}'
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: EnableLandingTarget
+    path: EnableLandingTarget
+    tooltip: 
+    space: -1
+    spaceable: 0
+    sheetType: m_Bool
+    realType: Boolean
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: True
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -1024,7 +1035,7 @@ MonoBehaviour:
     enumValues: []
     descendantCount: 0
   m_ImportDependencies: []
-  m_GraphVersion: 18
+  m_GraphVersion: 19
   m_ResourceVersion: 1
   m_SubgraphDependencies: []
   m_CategoryPath: 
@@ -1060,9 +1071,9 @@ MonoBehaviour:
   - link:
     - context: {fileID: 8926484042661616322}
       slotIndex: 0
-    - context: {fileID: 8926484042661617683}
-      slotIndex: 0
     - context: {fileID: 8926484042661617725}
+      slotIndex: 0
+    - context: {fileID: 8926484042661617683}
       slotIndex: 0
   integration: 0
   angularIntegration: 0
@@ -1081,10 +1092,6 @@ VisualEffectResource:
     m_RendererSettings:
       motionVectorGenerationMode: 0
       shadowCastingMode: 0
-      rayTracingMode: 0
-      receiveShadows: 0
-      reflectionProbeUsage: 0
-      lightProbeUsage: 0
     m_CullingFlags: 3
     m_UpdateMode: 0
     m_PreWarmDeltaTime: 0.05
@@ -1283,7 +1290,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"time":0.0},{"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"time":0.03836118057370186},{"color":{"r":0.0279507115483284,"g":0.0279507115483284,"b":0.0279507115483284,"a":1.0},"time":0.09718471020460129},{"color":{"r":1.0086479187011719,"g":1.0086479187011719,"b":1.0086479187011719,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"time":0.0},{"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"time":0.03836118057370186},{"color":{"r":0.0279507115483284,"g":0.0279507115483284,"b":0.0279507115483284,"a":1.0},"time":0.09718471020460129},{"color":{"r":1.3466241359710694,"g":1.3466241359710694,"b":1.3466241359710694,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
     m_Space: -1
   m_Property:
     name: gradient
@@ -1992,7 +1999,6 @@ MonoBehaviour:
       inputSlot: {fileID: 8926484042661617251}
     position: {x: -1279, y: -285}
     expandedSlots:
-    - {fileID: 8926484042661614777}
     - {fileID: 8926484042661614782}
     - {fileID: 8926484042661614778}
     expanded: 1
@@ -3996,7 +4002,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":0.9900000095367432,"y":1.0,"z":0.9900000095367432}'
+      m_SerializableObject: '{"x":1.0,"y":0.0,"z":1.0}'
     m_Space: -1
   m_Property:
     name: valueScale
@@ -4433,8 +4439,8 @@ MonoBehaviour:
   - {fileID: 8926484042661615139}
   - {fileID: 114780028408030698}
   - {fileID: 8926484042661616322}
-  - {fileID: 8926484042661617683}
   - {fileID: 8926484042661617725}
+  - {fileID: 8926484042661617683}
   dataType: 0
   capacity: 65536
   stripCapacity: 16
@@ -4666,7 +4672,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615263}
   m_ExposedName: BlendSpeed
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 1
   m_Category: 
   m_Min:
     m_Type:
@@ -6974,7 +6980,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616360}
   - {fileID: 8926484042661616980}
   - {fileID: 8926484042661616401}
-  m_UIPosition: {x: 3924, y: 1894}
+  m_UIPosition: {x: 3866, y: 1949}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -6999,6 +7005,7 @@ MonoBehaviour:
   m_SubOutputs:
   - {fileID: 8926484042661617539}
   - {fileID: 8926484042661617601}
+  useBaseColorMap: 3
   colorMapping: 0
   uvMode: 0
   flipbookLayout: 0
@@ -7714,7 +7721,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616396}
   m_ExposedName: HeightReference
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 2
   m_Category: 
   m_Min:
     m_Type:
@@ -7832,7 +7839,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616418}
   m_ExposedName: RayColor
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 3
   m_Category: 
   m_Min:
     m_Type:
@@ -18361,7 +18368,7 @@ MonoBehaviour:
   - {fileID: 8926484042661617371}
   m_ExposedName: Cull
   m_Exposed: 1
-  m_Order: 7
+  m_Order: 4
   m_Category: 
   m_Min:
     m_Type:
@@ -20088,14 +20095,14 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 0
+  m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661617452}
   m_ExposedName: LandingTargetPosition
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 5
   m_Category: Landing Target
   m_Min:
     m_Type:
@@ -20271,14 +20278,14 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 0
+  m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661617457}
   m_ExposedName: EnableLandingTarget
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 6
   m_Category: Landing Target
   m_Min:
     m_Type:
@@ -21116,14 +21123,14 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 0
+  m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661617507}
   m_ExposedName: RayColor_LandingTarget
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 7
   m_Category: Landing Target
   m_Min:
     m_Type:
@@ -22577,7 +22584,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -3348, y: 1121}
+  m_UIPosition: {x: -3376, y: 1125}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -25944,6 +25951,7 @@ MonoBehaviour:
   sortingPriority: 0
   m_SubOutputs:
   - {fileID: 8926484042661617688}
+  useBaseColorMap: 3
   colorMapping: 0
   uvMode: 0
   flipbookLayout: 0
@@ -25972,7 +25980,6 @@ MonoBehaviour:
   materialType: 0
   workflowMode: 0
   smoothnessSource: 0
-  useBaseColorMap: 3
   useOcclusionMap: 0
   useMetallicMap: 0
   useSpecularMap: 0
@@ -27113,6 +27120,7 @@ MonoBehaviour:
   sortingPriority: 0
   m_SubOutputs:
   - {fileID: 8926484042661617734}
+  useBaseColorMap: 3
   colorMapping: 0
   uvMode: 0
   flipbookLayout: 0
@@ -27141,7 +27149,6 @@ MonoBehaviour:
   materialType: 0
   workflowMode: 0
   smoothnessSource: 0
-  useBaseColorMap: 3
   useOcclusionMap: 0
   useMetallicMap: 0
   useSpecularMap: 0

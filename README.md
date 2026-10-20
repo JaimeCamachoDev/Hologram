@@ -14,3 +14,20 @@ Proyecto de base en **Unity 6 + URP** para crear un efecto de **holograma** con 
 3. Abre el proyecto con **Unity 6000.3.10f1**.
 4. Carga la escena `Assets/3-Scenes/Hologram.unity`.
 5. Presiona **Play** para validar el efecto.
+
+## Requisitos
+
+* Unity **6000.3.10f1**
+* Render Pipeline: Universal Render Pipeline (URP)
+* Paquetes: Visual Effect Graph
+* Assets de terceros incluidos (no redistribuibles): AmplifyShaderEditor, Knife
+
+## Contenido
+
+* **VFX Graph:** `Barca-RecorridoVFX`, `Hologram_HeightMap`
+* **Shader Graph:** `HoloOpaque`, `HoloTransparent`, `HoloTransparent Bordes`, `HologramWire`, `Hologram_Hologram 1`, `Hologram_Screen_Shader`
+* **Sub Graphs:** `CalculateVirtualRoom`, `VirtualRoom`
+* **Shaders HLSL:** `Diosa_DIssolve_LIT_RIM`, `Hex Avatar Astro`, `Hex Avatar Astro 1`, `Hex Dissolve_Hologram`, `Hex_Avatar_Excurio_Lit`, `Hex_Avatar_Excurio_Opaque`, `Hologram Shader`, `Hologram Shader IA`, `Hologram Shader IA HDRP`, `Hologram Shader IA Lit` y 10 más
+* **Scripts:** `HoloMotion`
+* **Prefabs:** `Hologram Capsule`, `Hologram_HeightMap`, `Nuevo Mapa`, `Prism God ray`, `SELENE_B2M1`, `SELENE_T`, `SELENE_T Variant`, `X Bot`
+* **Escenas:** `Assets/3-Scenes/Hologram-HeightMap.unity`, `Assets/3-Scenes/Hologram.unity`

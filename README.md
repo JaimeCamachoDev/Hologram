@@ -7,6 +7,20 @@
 
 Proyecto de base en **Unity 6 + URP** para crear un efecto de **holograma** con Shader Graph y Amplify, materiales dedicados y escenas de demostración.
 
+## Contenido
+
+Efectos en `Assets/2-Art/2-VFX/`:
+
+| Efecto | VFX | Shader Graph | Shaders | Scripts | Prefabs | Materiales |
+|---|---|---|---|---|---|---|
+| **Avatar Ghost** | — | — | 2 | — | — | 1 |
+| **Hologram** | — | 4 | 18 | 1 | 5 | 9 |
+| **Hologram_HeightMap** | 1 | — | — | — | 1 | — |
+| **Hologram_XBot** | — | 1 | — | — | 1 | 2 |
+| **Nuevo Holograma** | 1 | 3 | — | — | 1 | 1 |
+
+**Escenas de demostración:** `Assets/3-Scenes/Hologram-HeightMap.unity`, `Assets/3-Scenes/Hologram.unity`
+
 ## Cómo ejecutar
 
 1. Clona el repositorio.
@@ -21,13 +35,3 @@ Proyecto de base en **Unity 6 + URP** para crear un efecto de **holograma** con 
 * Render Pipeline: Universal Render Pipeline (URP)
 * Paquetes: Visual Effect Graph
 * Assets de terceros incluidos (no redistribuibles): AmplifyShaderEditor, Knife
-
-## Contenido
-
-* **VFX Graph:** `Barca-RecorridoVFX`, `Hologram_HeightMap`
-* **Shader Graph:** `HoloOpaque`, `HoloTransparent`, `HoloTransparent Bordes`, `HologramWire`, `Hologram_Hologram 1`, `Hologram_Screen_Shader`
-* **Sub Graphs:** `CalculateVirtualRoom`, `VirtualRoom`
-* **Shaders HLSL:** `Diosa_DIssolve_LIT_RIM`, `Hex Avatar Astro`, `Hex Avatar Astro 1`, `Hex Dissolve_Hologram`, `Hex_Avatar_Excurio_Lit`, `Hex_Avatar_Excurio_Opaque`, `Hologram Shader`, `Hologram Shader IA`, `Hologram Shader IA HDRP`, `Hologram Shader IA Lit` y 10 más
-* **Scripts:** `HoloMotion`
-* **Prefabs:** `Hologram Capsule`, `Hologram_HeightMap`, `Nuevo Mapa`, `Prism God ray`, `SELENE_B2M1`, `SELENE_T`, `SELENE_T Variant`, `X Bot`
-* **Escenas:** `Assets/3-Scenes/Hologram-HeightMap.unity`, `Assets/3-Scenes/Hologram.unity`

@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "com.jaimecamacho.unityfolders": "1.2.4",
+    "com.jaimecamachodev.unityfolders": "2.1.0",
+    "com.unity.modules.adaptiveperformance": "1.0.0",
+    "com.unity.modules.vectorgraphics": "1.0.0",
     "com.unity.recorder": "5.1.6",
     "com.unity.render-pipelines.universal": "17.3.0",
-    "com.unity.visualeffectgraph": "17.3.0",
-    "com.unity.modules.adaptiveperformance": "1.0.0",
-    "com.unity.modules.vectorgraphics": "1.0.0"
+    "com.unity.visualeffectgraph": "17.3.0"
   },
   "scopedRegistries": [
     {
@@ -19,7 +19,8 @@
       "name": "JaimeCamachoDev",
       "url": "https://registry.npmjs.org",
       "scopes": [
-        "com.jaimecamacho"
+        "com.jaimecamacho",
+        "com.jaimecamachodev"
       ]
     }
   ]
